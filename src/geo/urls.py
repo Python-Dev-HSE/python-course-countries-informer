@@ -7,7 +7,7 @@ from geo.views import (
     get_countries,
     get_country,
     get_weather,
-    get_currency,
+    get_currency
 )
 
 urlpatterns = [

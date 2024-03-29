@@ -9,7 +9,7 @@ from rest_framework.exceptions import NotFound, ValidationError
 from rest_framework.request import Request
 
 from app.settings import CACHE_WEATHER, CACHE_CURRENCY
-from geo.serializers import CountrySerializer, CitySerializer, WeatherSerializer, CurrencyRatesSerializer
+from geo.serializers import (CountrySerializer, CitySerializer, WeatherSerializer, CurrencySerializer)
 from geo.services.city import CityService
 from geo.services.country import CountryService
 from geo.services.shemas import CountryCityDTO
